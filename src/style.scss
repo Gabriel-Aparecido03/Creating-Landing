@@ -1,0 +1,266 @@
+.first-content {
+
+    background: url('./assets/image/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .text-content {
+        width: 90%;
+        margin-inline: auto;
+
+        padding-top: 12%;
+        display: flex;
+        justify-content: space-around;
+
+        color: #fff;
+        .sub-content {
+            width: 40%;
+            h2 {
+                font-weight: 400;
+                font-size: 1rem;
+            }
+
+
+        }
+
+        .people-sub-content {
+            display: flex;
+            margin-top: 10%;
+            align-items: center;
+            gap: 2%;
+        }
+
+        .principal-first-content {
+            text-align: initial;
+            h1 {
+                text-align: center;
+                width: 90%;
+                margin-inline: auto;
+                font-size: 2.5rem;
+            }
+
+            span {
+                color: #FF5B50;
+            }
+        }
+    }
+
+    .photos-content {
+        margin-top: 3%;
+        width: 90%;
+        margin-inline: auto;
+
+        .photos-grid {
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            row-gap: 3%;
+        }
+
+        .photo {
+            
+            img {
+                max-width: 80%;
+                border: 1px solid #fff;
+            }
+        }
+    }
+}
+
+.second-content {
+    background-color: #000;
+    display: flex;
+    color: #fff;
+    
+    aside {
+        width: 40%;
+        border-right: 2px solid #5A5757;
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        .text {
+            margin-top: 15%;
+            p {
+                font-size: 2.6rem;
+                font-weight: 700;
+            }
+            span {
+                color: #5A5757;
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    .text-second-content {
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-evenly;
+
+        .text {
+            width: 35%;
+
+            p {
+                margin-bottom: 10%;
+            }
+        }
+    }
+
+    .image-content {
+        margin-top: 5%;
+        img {
+            max-width: 100%;
+        }
+    }
+}
+
+.third-content {
+    background-color: #000;
+    color: #fff;
+
+    .content {
+        padding-top: 10%;
+        width: 90%;
+        margin-inline: auto;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+
+        span {
+            color: #FF5B50;
+        }
+    }
+
+    .column:first-child {
+        border-right:  2px solid #5A5757;
+    }
+
+    .popular-week-content-grid {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+
+        margin-top: 12%;
+    }
+
+    .nft {
+        margin-top: 12%;
+        width: 50%;
+
+        margin-inline: auto;
+
+        .title,.artist,.image {
+            margin-top: 6%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .title {
+            h1 {
+                font-size: 1.75rem;
+                font-weight: 400;
+            }
+        }
+
+        .name {
+            color: #5A5757;
+            font-weight: 700;
+            font-size: 1rem;
+        }
+
+        .value {
+            color: #FF5B50;
+            font-size: 1.25rem;
+        }
+
+        .image {
+            img {
+                max-width: 100%;
+            margin-inline: auto;
+                
+
+            }
+        }
+    }
+}
+
+.fourth-content {
+    background-color: #000;
+    color: #fff;
+    display: block;
+
+    .content {
+        padding-top: 5%;
+        width: 90%;
+        margin-inline: auto;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 2rem;
+
+        span {
+            color: #FF5B50;
+        }
+    }
+
+    .grid-artist {
+        margin-top: 4%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 2rem;
+        column-gap: 1.4rem;
+    }   
+
+    .artist {
+        width: 90%;
+        background-color: #5A5757;
+        
+        padding:.6rem;
+        display: flex;
+
+        align-items: center;
+        gap: 7%;
+
+        h1 {
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+
+        p {
+            margin-top: 5%;
+            color: #FF5B50;
+            font-size: .9rem;
+        }
+
+        img {
+            max-width: 70%;
+        }
+    }
+
+    .artist:nth-child(2) {
+        background-color: #FF5B50;
+         p {
+             color: #fff;
+         }
+    }
+
+    .more-informations {
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 100;
+        margin-top: 5%;
+        
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+
+        h3 {
+            font-weight: 200;
+            font-size: 1rem;
+        }
+    }
+
+    padding-bottom: 10%;
+}
